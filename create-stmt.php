@@ -26,7 +26,7 @@ if($stmt->execute()){
 
 }else{
 	
-	echo "Erro ao salvar!";
+	echo "Ops! Erro ao salvar!";
 }
 
 /**
