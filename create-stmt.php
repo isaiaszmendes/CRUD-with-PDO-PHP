@@ -22,7 +22,7 @@ $stmt->bindParam(':cmp1',$campo3);
 
 if($stmt->execute()){
 
-	echo "Salvo com sucesso!";
+	echo "Salvo com sucesso na tabela!";
 
 }else{
 	
