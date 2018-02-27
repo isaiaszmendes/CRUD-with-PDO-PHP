@@ -14,3 +14,4 @@ $result = $stmt->fetchAll();
 foreach ($result as $value) {
 	echo 'Desc: '.$value['descricao'].' Quant: '.$value['qtd']. ' Valor: '.$value['valor']. '<br>';
 }
+# Teste de commit - empurrar: git push origin master 
