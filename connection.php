@@ -13,7 +13,7 @@ function getConnection(){
 		$pdo = new PDO($dsn, $user, $pass);	
 
 		return $pdo;
-
+		# Inserir tratamentos 
 	} catch (PDOException $e) {
 
 		echo 'Erro: '. $e->getMessage();

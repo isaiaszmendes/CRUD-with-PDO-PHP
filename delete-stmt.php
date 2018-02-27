@@ -7,7 +7,7 @@ $sql = 'DELETE FROM produto WHERE id = :id';
 
 $stmt = $conn->prepare($sql);
 
-$id = 4;
+$id = 5;
 
 $stmt->bindParam(':id',$id);
 
