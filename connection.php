@@ -20,7 +20,7 @@ function getConnection(){
 
 	}
 }
-// PDO
+# refiz esse comentario
 /**
  * $dns = É o nome da fonte de dados, ou seja é o nome do SGBD que nesse caso é o MySQL
  */
